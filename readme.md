@@ -52,11 +52,11 @@ Now, upload the code to the Raspberry Pi and make sure everything is connected a
 ------
 | ![Wiring Diagram ](images/diagram.png) | 
 |:--:| 
-| *The inner wiring of the Raspberry Pi. I used a terminal hat to make a semi-permanent solution without soldering.* |
+| *A wiring diagram made in Fritzing.* |
 
 | ![Wiring and Inside of the Raspberry Pi ](images/P1210505.JPG) | 
 |:--:| 
-| *The inner wiring of the Raspberry Pi. I used a terminal hat to make a semi-permanent solution without soldering.* |
+| *The inner wiring of the Raspberry Pi. I used a terminal hat and Wago connectors to make a semi-permanent solution without soldering.* |
 
 | ![Raspberry Pi Button Soldering  ](images/P1210507.JPG) | 
 |:--:| 
