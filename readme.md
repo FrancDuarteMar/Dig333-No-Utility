@@ -19,28 +19,6 @@ First, the picture is taken by the user and instead of simply printing a picture
 
 ## Wiring:
 ------ 
-1. Power thermal printer and Raspberry pi with the power source. In this project, the original power cable from the thermal printer was spliced and connected to a usb-B 3.0 cable and then connected to a powerbank. Make sure there is enough voltage for the raspberry pi and the thermal printer(5v).
-2. Connect the Pi Camera to the Camera header on the # Pi Camera 
-### An new take on an old style
-
-[![A late 1800s, early 1900 wooden camera on a tripod in front of large white tents](https://images.unsplash.com/photo-1631917000500-2164cfacd584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80 "Inspired by this camera")](https://unsplash.com/photos/mF8WrpQ4GVg)
-
-
-The goal of the project was to create a camera that mimicked an older style camera while still having some modern features that are quite different from what would've been seen in the past. The camera that I designed was a useless project that prompted the user to think about the output of the camera. This was due to the thermal printer printing what the camera saw as an output in text form. 
-
-First, the picture is taken by the user and instead of simply printing a picture, image is processed by a [AI Clip Interrogator](https://github.com/pharmapsychotic/clip-interrogator) that results in a description the image just how a computer would in order to replicate it. Then, the text is ran through the [stable diffusion model](https://github.com/CompVis/stable-diffusion), [through the Dream Studio API](https://beta.dreamstudio.ai/), in order to generate the images that a computer would see. The images are thenuploaded to [Imgur](https://imgur.com/) and then the images and a qr code with the link to the images are printed for the user to see. 
-
-## Required Materials: 
-------
-1. [Raspberry Pi 3B+](https://www.adafruit.com/product/3775)
-2. [ArduCam 64MP Raspberry Pi Camera](https://www.arducam.com/64mp-ultra-high-res-camera-raspberry-pi/)
-3. [Thermal Printer(and required accessories)](https://www.adafruit.com/product/597)
-4. [SPDT Toggle Switch](https://www.adafruit.com/product/3221)
-5. [Arcade Button with LED ](https://www.adafruit.com/product/3430)
-6. Powersource, wires, housing and other similar materials 
-
-## Wiring:
------- 
 1. Power thermal printer and Raspberry Pi with the power source. In this project, the original power cable from the thermal printer was spliced and connected to a usb-B 3.0 cable and then connected to a powerbank. Make sure there is enough voltage for the raspberry pi and the thermal printer(5v).
 2. Connect the Pi Camera to the Camera input on the Raspberry Pi. 
 3. Connect the TX on the printer to the RX header on the Raspberry Pi and then connect the TX on the printer to the RX on the Raspberry Pi. The ground can be connected to any ground header on the raspberry pi. 
