@@ -42,7 +42,10 @@ Now, upload the code to the Raspberry Pi and make sure everything is connected a
 ## Other Links: 
 * [Original Proposal](https://docs.google.com/presentation/d/1aYstJ0G2Fg-Bk03LoDEcICl-ishT3CIbPRFDL4NeB2E/edit#slide=id.p)
 * [First Prototype](https://docs.google.com/document/d/1zMuN2FoyEu2WlAjWtQQX2DENBniZJCucgUigKJtUFb4/edit#heading=h.yzdpokwibilk)
-* [![Video Link](images/P1210535.JPG)](https://drive.google.com/file/d/1BcAxTSqWPeH5n0e9MDv2Y_6GI90vkyOu/view?usp=share_link)
+| ![![Video Link](images/P1210535.JPG)](https://drive.google.com/file/d/1BcAxTSqWPeH5n0e9MDv2Y_6GI90vkyOu/view?usp=share_link)| 
+|:--:| 
+| *Demo of the Pi Camera in use [Google Drive Link](https://drive.google.com/file/d/1BcAxTSqWPeH5n0e9MDv2Y_6GI90vkyOu/view?usp=share_link)* | 
+
 
 ### Images: 
 ------
