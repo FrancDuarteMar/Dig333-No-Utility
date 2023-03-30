@@ -20,8 +20,8 @@ printer.size = atp.SIZE_MEDIUM
 
 #Env Variables: 
 os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
-os.environ['STABILITY_KEY'] = 'sk-jc2D4c3WSDDPkNKPtI0HVcpJXf9WIxeHFUi3SHhV86XbNEqq'
-os.environ["REPLICATE_API_TOKEN"]="10cd3de2b4da5a271821a37797d1c1652929f80c"
+os.environ['STABILITY_KEY'] = ''
+os.environ["REPLICATE_API_TOKEN"]=""
 
 #API for clip interrogator
 model = replicate.models.get("francduartemar/clip")
